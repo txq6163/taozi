@@ -3,7 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Sheyuanqingbao;
+package jp.co.tao;
+
+import java.util.Date;
 
 /**
  *
@@ -11,16 +13,30 @@ package Sheyuanqingbao;
  */
 public class Employee {
 
-    //社員ID
+    /**
+     * 社員ID
+     */
     private String eId;
-    //社員名称
+
+    /**
+     * 社員名称
+     */
     private String eName;
-    //性別
+
+    /**
+     * 性別
+     */
     private String eSex;
-    //職位
+
+    /**
+     * 社員職位
+     */
     private String ePos;
-    // 入社日
-    private String eEntrydate;
+
+    /**
+     * 入社日
+     */
+    private Date eEntryDate;
 
     /**
      * @return the eId
@@ -79,17 +95,17 @@ public class Employee {
     }
 
     /**
-     * @return the eEntrydate
+     * @return the eEntryDate
      */
-    public String geteEntrydate() {
-        return eEntrydate;
+    public Date geteEntryDate() {
+        return eEntryDate;
     }
 
     /**
-     * @param eEntrydate the eEntrydate to set
+     * @param eEntryDate the eEntryDate to set
      */
-    public void seteEntrydate(String eEntrydate) {
-        this.eEntrydate = eEntrydate;
+    public void seteEntryDate(Date eEntryDate) {
+        this.eEntryDate = eEntryDate;
     }
 
 }
